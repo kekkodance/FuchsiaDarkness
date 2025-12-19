@@ -1,5 +1,5 @@
 /* Title bar and window buttons */
-.typeWindows__421ed {
+._421edea01cb52e16-typeWindows {
 		height: 0;
 		margin-top: 0;
 		position: absolute;
@@ -7,13 +7,13 @@
 		left: 0;
 		width: 100%;
 }
-.bar_c38106 {
+.c38106a3f0c3ca76-bar {
     gap: 0;
     min-height: 0;
 		height: 5px;
     padding: 0;
 }
-#app-mount .titleBar__421ed:after {
+#app-mount ._421edea01cb52e16-titleBar:after {
 		content: "";
 		position: relative;
 		height: 10px;
@@ -22,7 +22,7 @@
 		left: -120px;
 		-webkit-app-region: drag;
 }
-.winButtons_c38106 {
+.c38106a3f0c3ca76-winButtons {
 		position: relative;
 		right: 15px;
 		height: 25px;
@@ -33,19 +33,19 @@
 		background: rgba(var(--TetriaryBG)) !important;
 		color: rgba(var(--AccentColor), 1);
 }
-.winButtons_c38106 .winButtonMinMax_c38106 {
+.c38106a3f0c3ca76-winButtons .c38106a3f0c3ca76-winButtonMinMax {
 		 color: rgba(var(--AccentColor), 1);
 		 background: rgba(var(--TetriaryBG));
 }
-.winButtons_c38106 .winButtonMinMax_c38106[aria-label^="Minimize"]:hover {
+.c38106a3f0c3ca76-winButtons .c38106a3f0c3ca76-winButtonMinMax[aria-label^="Minimize"]:hover {
 		 color: rgba(var(--AccentColor), 1);
 		 background: rgba(var(--AccentColor), 0.25);
 }
-.winButtons_c38106 .winButtonMinMax_c38106[aria-label^="Maximize"]:hover {
+.c38106a3f0c3ca76-winButtons .c38106a3f0c3ca76-winButtonMinMax[aria-label^="Maximize"]:hover {
 		 color: rgba(var(--AccentColor), 1);
 		 background: rgba(var(--AccentColor), 0.25);
 }
-.winButtonsWithDivider_c38106:before {
+.c38106a3f0c3ca76-winButtonsWithDivider:before {
     display: none;
 }
 .colorNotification-24Qhr6 {

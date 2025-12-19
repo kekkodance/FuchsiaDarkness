@@ -29,14 +29,14 @@ foreignObject {
 }
 
 /* "display: none;" spam collection */
-.wordmark__421ed,
+._421edea01cb52e16-wordmark,
 .avatarHint_f89da9,
-.unread__3b95d {
+._3b95d7d910416e54-unread {
 		display: none;
 }
 
 /* Transition Killer */
-#app-mount .layer__960e4  {
+#app-mount ._960e4207cea8323e-layer  {
 		transform: none !important;
 		transition: none !important;
 		animation: none !important;
@@ -80,10 +80,10 @@ content: "this theme is NOT made for light theme you fucking pretzel";
 }
 
 /* Loading Screen */
-.container_a2f514 video.ready_a2f514 {
+.a2f5142ba8328dfd-container video.a2f5142ba8328dfd-ready {
 		display: none;
 }
-.tip_a2f514 {
+.a2f5142ba8328dfd-tip {
 		color: rgba(var(--AccentColor), 1);
 		font-size: 15px;
 		line-height: 25px;
@@ -91,12 +91,12 @@ content: "this theme is NOT made for light theme you fucking pretzel";
 		text-transform: lowercase;
 		font-style: italic;
 }
-.tipTitle_a2f514 {
+.a2f5142ba8328dfd-tipTitle {
 		display: none;
 }
 
 /* Ping indicators */
-.numberBadge__2b1f5 {
+._2b1f52e43a8f1c02-numberBadge {
 		height: 15px;
 		min-width: 15px;
 		min-height: 15px;
@@ -105,7 +105,7 @@ content: "this theme is NOT made for light theme you fucking pretzel";
 		font-weight: 800;
 		color: rgba(var(--PrimaryBG));
 }
-.numberBadge__2b1f5 {
+._2b1f52e43a8f1c02-numberBadge {
 		background-color: rgba(var(--AccentColor), 1) !important;
 		width: 35px !important;
 }
@@ -117,7 +117,7 @@ content: "this theme is NOT made for light theme you fucking pretzel";
 }
 
 /* Scrollbar deletion */
-.thin__99f8c::-webkit-scrollbar, .thin__99f8c::-webkit-scrollbar-corner, .auto-2K3UW5::-webkit-scrollbar-thumb, .auto-2K3UW5::-webkit-scrollbar-track {
+._99f8cc7ad4790ce9-thin::-webkit-scrollbar, ._99f8cc7ad4790ce9-thin::-webkit-scrollbar-corner, .auto-2K3UW5::-webkit-scrollbar-thumb, .auto-2K3UW5::-webkit-scrollbar-track {
 		display: none;
 }
 
@@ -133,7 +133,7 @@ circle {
 		font-weight: 700;
 		border: 2px dashed rgba(var(--AccentColor), 0.25);
 }
-.guildNameText_b1f768 {
+.b1f768426adf64d9-guildNameText {
 		color: rgba(var(--AccentColor), 1);
 }
 #app-mount .tooltipPrimary-3qLMbS .tooltipPointer-3L49xb {
@@ -146,52 +146,52 @@ circle {
 }
 
 /* Bot Tag */
-.botTag__5d473, .botTag_c19a55, .headerBotTagWithNickname-3DNCuU, .headerBotTag-1xw5Ck {
+._5d473ecff348c314-botTag, .c19a557985eb7793-botTag, .headerBotTagWithNickname-3DNCuU, .headerBotTag-1xw5Ck {
 		background: rgba(var(--AccentColor), 1);
 		color: rgba(var(--PrimaryBG));
 }
 
 /* Reload Screen */
-.theme-dark .image__61a6b {
+.theme-dark ._61a6bac39bf12a0c-image {
 	background: none;
 }
-.theme-dark .wrapper__61a6b {
+.theme-dark ._61a6bac39bf12a0c-wrapper {
 	background-image: url("https://i.imgur.com/FK87k4M.png");
 }
-.title__61a6b {
+._61a6bac39bf12a0c-title {
 	font-size: 0;
 	line-height: 0;
 	margin-bottom: 10px;
 	color: rgba(var(--AccentColor), 1);
 }
-.title__61a6b::before {
+._61a6bac39bf12a0c-title::before {
 	font-size: 25px;
 	content: "whoops.";
 	font-weight: 800;
 }
 
-.note__61a6b {
+._61a6bac39bf12a0c-note {
 	font-size: 0;
 	color: rgba(var(--AccentColor), 1);
 }
-.note__61a6b::before {
+._61a6bac39bf12a0c-note::before {
 	font-size: 20px;
 	content: "something has nuked your discord activity. here's a c7.r for now.";
 	font-weight: 700;
 }
-.errorPage_a57b28 .flex__7c0ba .buttons_a57b28 .lookFilled-yCfaCM.colorBrand-I6CyqQ {
+._01b8da2711bed5ad-errorPage ._7c0bae9243151ddd-flex .buttons__01b8d .lookFilled-yCfaCM.colorBrand-I6CyqQ {
 	background: rgba(var(--SecondaryBG), .5);
 }
-.errorPage_a57b28 .flex__7c0ba .buttons_a57b28 .contents-3ca1mk {
+._01b8da2711bed5ad-errorPage ._7c0bae9243151ddd-flex .buttons__01b8d .contents-3ca1mk {
 	font-size: 0px;
 }
-.errorPage_a57b28 .flex__7c0ba .buttons_a57b28 .contents-3ca1mk::before {
+._01b8da2711bed5ad-errorPage ._7c0bae9243151ddd-flex .buttons__01b8d .contents-3ca1mk::before {
 	font-size: 14px;
 	line-height: 25px;
 	content: "try again, though it's recommended to restart discord instead";
 }
 
-.wrapper_f61d60 {
+._0d1eff984b8fd277-wrapper {
     padding: 1px;
     font-weight: 500;
     color: rgba(var(--AccentColor), 1);
@@ -201,9 +201,9 @@ circle {
     color: rgba(var(--AccentColor), 1);
 		animation: rainbow 5s linear infinite;
 }
-.progress__89dcd .progressBar__89dcd {
+._5a6abdc52a572b78-progress ._5a6abdc52a572b78-progressBar {
     background: rgba(var(--AccentColor), 1) !important;
 }
-.icon__0ccae {
+._0ccaee68b77c7469-icon {
     display: none;
 }

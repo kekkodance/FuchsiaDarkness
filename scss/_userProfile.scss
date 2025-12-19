@@ -50,7 +50,7 @@
 		background: rgba(var(--PrimaryBG));
 		gap: 5px;
 }
-.top_b3f026 .selected_b3f026.themed_b3f026.item_b3f026 {
+.aa8da23faa27393c-top .aa8da23faa27393c-selected.aa8da23faa27393c-themed.aa8da23faa27393c-item {
     color: rgba(var(--AccentColor), 1);
 		border-color: rgba(var(--AccentColor), 1);
     animation: rainbow 3s linear infinite;
@@ -82,31 +82,31 @@
 }
 
 /* Connections */
-.connectedAccountsColumn_e6abe8+.connectedAccountsColumn_e6abe8 {
+.e6abe833ac70fcae-connectedAccountsColumn+.e6abe833ac70fcae-connectedAccountsColumn {
 	margin-left: 10px;
 }
-.connectedAccountsColumn_e6abe8 {
+.e6abe833ac70fcae-connectedAccountsColumn {
 	margin-left: 0px;
 	width: calc(50% - 5px);
 }
-.connectedAccountContainer_e6abe8 {
+.e6abe833ac70fcae-connectedAccountContainer {
 	margin-top: 10px;
 	padding: 8px;
 	width: 250px;
 	border: 1px solid rgba(var(--AccentColor), 1);
 	background: transparent;
 }
-.connectedAccountVerifiedIcon_e6abe8 svg {
+.e6abe833ac70fcae-connectedAccountVerifiedIcon svg {
 		-webkit-mask: url("https://i.imgur.com/mz3u9ds.png") center/cover;
 		outline: 100px solid rgba(var(--AccentColor), 1);
 		outline-offset: -500px;
 }
-.connectedAccountOpenIcon_e6abe8 {
+.e6abe833ac70fcae-connectedAccountOpenIcon {
 		-webkit-mask: url("https://i.imgur.com/jUqUct8.png") center/cover;
 		background: rgba(var(--AccentColor), 1);
 		cursor: crosshair;
 }
-.connectedAccount_e6abe8 {
+.e6abe833ac70fcae-connectedAccount {
     gap: 10px;
 }
 .tabBarItem_b9fccc {
@@ -162,7 +162,7 @@
 		background: rgba(var(--AccentColor), 1);
 		color: rgba(var(--AccentColor), 1);
 }
-.wrapper_da5890.biteSize_da5890 .button__201d5 {
+._4106ae7c1472c1de-wrapper.user-profile-popout ._201d5e8a3c09670a-button {
     padding: 0;
 		margin: 0 0 !important;
 }
