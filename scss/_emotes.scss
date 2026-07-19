@@ -1,21 +1,22 @@
 /* -=-= Emote Menu =-=- */
+.visual-refresh {
 /* GIF Menu */
-.theme-dark .categoryFadeBlurple_af1167 {
+.theme-dark .d02962a38047ac3c-categoryFadeBlurple {
     background-color: rgba(var(--AccentColor), 0.25);
 }
-.theme-dark .categoryFadeBlurple_af1167:hover {
+.theme-dark .d02962a38047ac3c-categoryFadeBlurple:hover {
     background-color: rgba(var(--AccentColor), 0.5);
 }
-.theme-dark .focused_bad108:after, .theme-dark .result_bad108:hover:after {
+.theme-dark .focused_bad108:after, .theme-dark ._2dc39186a9b98da4-result:hover:after {
     box-shadow: none;
 		outline: 2px dashed rgba(var(--AccentColor), 1);
 }
 
 /* Sticker Menu */
-.inspectedIndicator_a708c4 {
+.c6367b0f171ba6d7-inspectedIndicator {
     mask: none;
 }
-.stickerInspected_a708c4 .inspectedIndicator_a708c4 {
+.c6367b0f171ba6d7-stickerInspected .c6367b0f171ba6d7-inspectedIndicator {
     background: rgba(var(--AccentColor), 0.15);
 }
 .categoryListWithSearch-2jrzH6 {
@@ -23,62 +24,62 @@
 }
 
 /* Emote Menu - Search */
-.header_c6ee36, .header_d8cdac {
+.c0e32c5cffed3d9f-header, ._8ef02eea17068b73-header {
     box-shadow: none;
     padding: 5px !important;
 		margin-left: 48px;
 }
-.medium_effbe2.iconLayout_effbe2 {
+.medium_fea832.iconLayout_fea832 {
     display: none;
 }
-.medium_effbe2 .input_effbe2, .medium_effbe2 .tag_effbe2 {
+.medium_fea832 .input_fea832, .medium_fea832 .tag_fea832 {
     font-size: 15px;
     line-height: 20px;
     height: 25px;
     padding: 0 5px;
 }
-.input_effbe2 {
+.input_fea832 {
     margin: 0;
     color: rgba(var(--AccentColor), 1);
 }
-.navButtonActive_af5dbb {
+._084343c4f11eaaab-navButtonActive {
     background-color: rgba(var(--SecondaryBG));
     color: rgba(var(--AccentColor), 1);
 }
 
 /* Emote Menu - Servers */
-.categoryList_c6ee36 {
+.c0e32c5cffed3d9f-categoryList {
     top: 0 !important;
 }
 
 /* Emote Menu - Categories */
-.unicodeShortcut_dfa278 svg {
+.b9ee0c229bc0b6bb-unicodeShortcut svg {
 		-webkit-mask: url("https://i.imgur.com/ZEcR8dr.png") center/30px no-repeat;
 		width: 40px;
 		background-color: rgba(var(--AccentColor), 1);
 		cursor: crosshair;
 }
-.unicodeShortcut_dfa278 {
+.b9ee0c229bc0b6bb-unicodeShortcut {
 		height: 41px;
 		border-top: 2px dashed rgba(var(--AccentColor), 1);
 		border-bottom: 2px dashed rgba(var(--AccentColor), 1);
 }
-.guildCategorySeparator_dfa278 {
+.b9ee0c229bc0b6bb-guildCategorySeparator {
     margin: 5px 0;
     border-bottom: 2px solid rgba(var(--AccentColor), 1);
 }
 
-.categoryItemDefaultCategorySelected_dfa278 .categoryIcon_dfa278, .categoryItemDefaultCategorySelected_dfa278:hover .categoryIcon_dfa278 {
+.b9ee0c229bc0b6bb-categoryItemDefaultCategorySelected .b9ee0c229bc0b6bb-categoryIcon, .b9ee0c229bc0b6bb-categoryItemDefaultCategorySelected:hover .b9ee0c229bc0b6bb-categoryIcon {
 		color: rgba(var(--AccentColor), 1) !important;
 }
-.categoryItemDefaultCategory_dfa278 {
+.b9ee0c229bc0b6bb-categoryItemDefaultCategory {
 		margin-left: 3px;
 		margin-bottom: 5px !important;
 		height: 24px;
 		width: 24px;
 		padding: 4px;
 }
-.categoryItemDefaultCategory_dfa278[aria-label="recent"], .stickerCategory_a7a485[aria-label*="Frequently used"] svg {
+.b9ee0c229bc0b6bb-categoryItemDefaultCategory[aria-label="recent"], ._3ad28b0867fa3fad-stickerCategory[aria-label*="Frequently used"] svg {
 		-webkit-mask: url("https://i.imgur.com/0WgR6i2.png") center/cover;
 		content: "";
 		width: 16px;
@@ -86,96 +87,96 @@
 		background-color: rgba(var(--AccentColor), 1);
 		margin-left: 4px;
 }
-.stickerCategory_a7a485[aria-label*="Frequently used"] svg {
+._3ad28b0867fa3fad-stickerCategory[aria-label*="Frequently used"] svg {
 	width: 24px;
 	height: 24px;
 	margin-right: 3px;
 	margin-left: 0;
 }
-.stickerCategory_a7a485[aria-label*="Frequently used"] {
+._3ad28b0867fa3fad-stickerCategory[aria-label*="Frequently used"] {
 	margin-bottom: 1px;
 }
-.categoryItemDefaultCategory_dfa278[aria-label="favorite emojis"] {
+.b9ee0c229bc0b6bb-categoryItemDefaultCategory[aria-label="favorite emojis"] {
 		display: none;
 }
-.categoryItemDefaultCategory_dfa278[aria-label="people"] {
+.b9ee0c229bc0b6bb-categoryItemDefaultCategory[aria-label="people"] {
 		-webkit-mask: url("https://i.imgur.com/73n6Qkh.png") center/cover;
 		content: "";
 		width: 20px;
 		height: 20px;
 		background-color: rgba(var(--AccentColor), 1);
 }
-.categoryItemDefaultCategorySelected_dfa278[aria-label="people"] {
+.b9ee0c229bc0b6bb-categoryItemDefaultCategorySelected[aria-label="people"] {
 		-webkit-mask: url("https://i.imgur.com/HBqxz2l.png") center/cover;
 		content: "";
 		width: 20px;
 		height: 20px;
 		background-color: rgba(var(--AccentColor), 1);
 }
-.categoryItemDefaultCategory_dfa278[aria-label="nature"] {
+.b9ee0c229bc0b6bb-categoryItemDefaultCategory[aria-label="nature"] {
 		-webkit-mask: url("https://i.imgur.com/8XoLzrD.png") center/cover;
 		content: "";
 		width: 20px;
 		height: 20px;
 		background-color: rgba(var(--AccentColor), 1);
 }
-.categoryItemDefaultCategory_dfa278[aria-label="food"] {
+.b9ee0c229bc0b6bb-categoryItemDefaultCategory[aria-label="food"] {
 		-webkit-mask: url("https://i.imgur.com/4mhbqkP.png") center/cover;
 		content: "";
 		width: 20px;
 		height: 20px;
 		background-color: rgba(var(--AccentColor), 1);
 }
-.categoryItemDefaultCategory_dfa278[aria-label="activity"] {
+.b9ee0c229bc0b6bb-categoryItemDefaultCategory[aria-label="activity"] {
 		-webkit-mask: url("https://i.imgur.com/ieJmUPP.png") center/cover;
 		content: "";
 		width: 20px;
 		height: 20px;
 		background-color: rgba(var(--AccentColor), 1);
 }
-.categoryItemDefaultCategorySelected_dfa278[aria-label="activity"] {
+.b9ee0c229bc0b6bb-categoryItemDefaultCategorySelected[aria-label="activity"] {
 		-webkit-mask: url("https://i.imgur.com/TcF8PtA.png") center/cover;
 		content: "";
 		width: 20px;
 		height: 20px;
 		background-color: rgba(var(--AccentColor), 1);
 }
-.categoryItemDefaultCategory_dfa278[aria-label="travel"] {
+.b9ee0c229bc0b6bb-categoryItemDefaultCategory[aria-label="travel"] {
 		-webkit-mask: url("https://i.imgur.com/1Ao6KoO.png") center/cover;
 		content: "";
 		width: 20px;
 		height: 20px;
 		background-color: rgba(var(--AccentColor), 1);
 }
-.categoryItemDefaultCategorySelected_dfa278[aria-label="travel"] {
+.b9ee0c229bc0b6bb-categoryItemDefaultCategorySelected[aria-label="travel"] {
 		-webkit-mask: url("https://i.imgur.com/QkZUjPR.png") center/cover;
 		content: "";
 		width: 20px;
 		height: 20px;
 		background-color: rgba(var(--AccentColor), 1);
 }
-.categoryItemDefaultCategory_dfa278[aria-label="objects"] {
+.b9ee0c229bc0b6bb-categoryItemDefaultCategory[aria-label="objects"] {
 		-webkit-mask: url("https://i.imgur.com/9tkLDi5.png") center/cover;
 		content: "";
 		width: 20px;
 		height: 20px;
 		background-color: rgba(var(--AccentColor), 1);
 }
-.categoryItemDefaultCategory_dfa278[aria-label="symbols"] {
+.b9ee0c229bc0b6bb-categoryItemDefaultCategory[aria-label="symbols"] {
 		-webkit-mask: url("https://i.imgur.com/z3OI1Uv.png") center/cover;
 		content: "";
 		width: 20px;
 		height: 20px;
 		background-color: rgba(var(--AccentColor), 1);
 }
-.categoryItemDefaultCategory_dfa278[aria-label="flags"] {
+.b9ee0c229bc0b6bb-categoryItemDefaultCategory[aria-label="flags"] {
 		-webkit-mask: url("https://i.imgur.com/uIDMWSy.png") center/cover;
 		content: "";
 		width: 20px;
 		height: 20px;
 		background-color: rgba(var(--AccentColor), 1);
 }
-.categoryItemDefaultCategory_dfa278[aria-label="blacklist"] {
+.b9ee0c229bc0b6bb-categoryItemDefaultCategory[aria-label="blacklist"] {
 		-webkit-mask: url("https://i.imgur.com/qhf4i2G.png") center/cover;
 		content: "";
 		width: 20px;
@@ -188,7 +189,7 @@
 		width: 150px;
 		height: 75px;
 }
-.guildSection_e58351 {
+.d5cd2da5733d0b6e-guildSection {
     padding: 10px;
     background-color: rgba(var(--PrimaryBG), 0.25);
 		border-top: 2px dashed rgba(var(--AccentColor), 1);
@@ -198,7 +199,7 @@
 		background-color: rgba(var(--PrimaryBG));
 }
 
-.inspector_c3120f {
+.aeaaeb2a573807f0-inspector {
 		height: 45px;
 		padding: 0 10px;
 		background-color: rgba(var(--SecondaryBG));
@@ -206,27 +207,29 @@
 		border-bottom: 2px dashed rgba(var(--AccentColor), 1);
 }
 
-.headerIcon_e06857 {
+._14245bb948377a25-headerIcon {
 		display: none;
 }
-.wrapper_e06857 {
+._14245bb948377a25-wrapper {
 		height: 25px;
 		padding: 0 0;
 }
-.header_e06857 {
+._14245bb948377a25-header {
 		color: rgba(var(--AccentColor), 1);
 		font-size: 13px;
 		transition: none;
 }
-.wrapper_e06857:after {
+._14245bb948377a25-wrapper:after {
 		height: 0;
 }
-.emojiItem_fbfedd.emojiItemSelected_fbfedd {
+.fc7141859aaa98b7-emojiItem.fc7141859aaa98b7-emojiItemSelected {
 		background-color: rgba(var(--AccentColor), 0.15);
 }
-.contentWrapper_af5dbb {
+._084343c4f11eaaab-contentWrapper {
 		box-shadow: none;
 		padding-top: 0;
 		margin-bottom: 0;
 		bottom: -10px;
+}
+
 }

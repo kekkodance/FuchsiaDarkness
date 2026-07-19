@@ -11,10 +11,10 @@
 		 --purpleDark: #432870;
 		 --nitro: #ff73fa;
 }
- .theme-dark {
+.theme-dark {
 		 --header-secondary: #bbb;
 		 --text-normal: #fff;
-		 --text-muted: rgba(var(--AccentColor), 0.5);
+		 --text-muted: rgba(var(--AccentColor), 0.5) !important;
 		 --text-link: rgba(var(--AccentColor), 1);
 		 --interactive-normal: rgba(var(--AccentColor), 0.75);
 		 --interactive-hover: rgba(var(--AccentColor), 1);
@@ -28,6 +28,12 @@
 		 --background-modifier-hover: rgba(var(--PrimaryBG));
 		 --background-modifier-selected: rgba(var(--SecondaryBG));
 		 --input-background: rgba(var(--SecondaryBG));
+		 --custom-guild-list-padding: 5px;
+		 --chat-text-muted: rgba(var(--AccentColor), 0.75) !important;
+		 --brand-360: rgba(var(--AccentColor), 1);
+		 --text-brand: rgba(var(--AccentColor), 1);
+		 --mention-foreground: rgba(var(--AccentColor), 1);
+		 --mention-background: rgba(var(--AccentColor), 0.25);
 }
 
 /* Radial Status */
@@ -46,4 +52,17 @@
   --rs-streaming-color: #643da7;
   --rs-invisible-color: #747f8d;
   --rs-phone-visible: none;
+}
+
+:root {
+    /* controls the vertical position of the window buttons */
+    --vr-header-snippet-top: 0px !important;
+    /* controls the space above the server list */
+    --vr-header-snippet-server-padding: 0 !important;
+    /* controls the space the window buttons get on the channel header, experiment around with this if you get gaps or the buttons overlap! */
+    --vr-header-snippet-space: 0 !important;
+    /* controls the space to the right of the window buttons, good if you are using themes like midnight which add padding to the bar */
+    --vr-header-snippet-button-padding: 0 !important;
+    /* !DESKTOP SNIPPET ONLY! If set to none instead of flex, hides the window control buttons */
+    --vr-header-snippet-winbuttons: flex !important;
 }

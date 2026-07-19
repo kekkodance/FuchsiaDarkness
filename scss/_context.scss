@@ -1,6 +1,6 @@
 /* -=-= Context Menu =-=- */
 /* Context Menu - Right click */
-.item_d90b3d {
+.c1e9c47c23f12ca3-item {
 		margin: 0 0;
 		padding: 0 5px;
 		font-size: 15px;
@@ -8,18 +8,23 @@
 		line-height: 20px;
 		cursor: crosshair;
 }
-.labelContainer_d90b3d {
+.c1e9c47c23f12ca3-labelContainer {
     min-height: 25px;
     padding: 0px 5px;
 }
-.scroller_d90b3d {
+.c1e9c47c23f12ca3-scroller {
 		padding: 0 0 !important;
-		overflow: hidden;
+		overflow: hidden !important;
 		background-color: rgba(var(--PrimaryBG));
 }
-.flexible_d90b3d {
+.c1e9c47c23f12ca3-flexible {
     min-width: 250px;
     max-width: 350px;
+}
+.c1e9c47c23f12ca3-separator {
+    box-sizing: border-box;
+    margin: 0;
+    border-bottom: 2px solid rgba(var(--AccentColor), 0.25);
 }
 
 /* Context Menu Selection */
@@ -59,7 +64,7 @@
 		color: rgba(var(--AccentColor), 1);
 }
 
-.icon_a24e84 {
+.f563df886a7377be-icon {
     width: 30px;
     height: 30px;
 		image-rendering: pixelated;
